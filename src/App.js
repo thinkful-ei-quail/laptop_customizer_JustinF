@@ -5,6 +5,11 @@ import React, { Component } from 'react';
 import slugify from 'slugify';
 
 import './App.css';
+import ItemList from './itemList';
+import ItemCards from './itemCards';
+import ShopCards from './shopCards';
+import ShopFrame from './shopFrame';
+import ShopList from './shopList';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
