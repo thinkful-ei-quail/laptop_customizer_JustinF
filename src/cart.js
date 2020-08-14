@@ -1,6 +1,6 @@
 import React from 'react';
-import SummaryItem from './summaryItem';
-import Total from './total';
+import SummaryItem from './SummaryItem';
+import Total from './Total';
 
 export default function Cart(props){
   return (

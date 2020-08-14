@@ -1,14 +1,14 @@
 import React from 'react';
-import Feature from './features';
-
+import Features from './Features';
+import FeatureList from './FeatureList';
 
 export default function CustomizeForm(props){
   return (
     <form className="main__form">
       <h2>Customize your laptop</h2>
-      {Object.keys(props.features).map((featureName, idx) => (
-        <Feature 
-          feature={props.features[featureName]}
+      {Object.keys(FeatureList).map((featureName, idx) => (
+        <Features 
+          feature={FeatureList[featureName]}
           key={featureName}
           name={featureName}
           idx={idx}
