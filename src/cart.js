@@ -2,6 +2,8 @@ import React from 'react';
 import SummaryItem from './SummaryItem';
 import Total from './Total';
 
+// I HATE THIS
+
 export default function Cart(props){
   return (
   <section className="main__summary">
